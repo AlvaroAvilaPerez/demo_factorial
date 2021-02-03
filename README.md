@@ -16,17 +16,25 @@ c) `pip install -r requirements.txt`
 1) Endpoint: http://qainterview.pythonanywhere.com/factorial
 
       Description: Endpoint used to calculate the factorial of the given number
+
       Request Method: POST
+
       Payload: {“number”': “4”}
+
       Or
+
       cURL => curl --location --request POST 'http://qainterview.pythonanywhere.com/factorial' --form 'number="4"'
 
 2) Endpoint: https://qainterview.pythonanywhere.com/terms
+
       Description: Endpoint used to retrieve the Terms and Conditions Document
+	  
       Request Method: GET
 
 3) Endpoint: https://qainterview.pythonanywhere.com/privacy
+
       Description: Endpoint used to retrieve the Privacy Document
+	  
       Request Method: GET
 
 
