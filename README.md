@@ -3,7 +3,9 @@
 This repository contains Tests for the Factorial Calculator site.
 
 First Install Anaconda:  https://www.anaconda.com/products/individual
-In a terminal window, navigate inside the parent directory of this README and execute the following to create the demo_env environment: 
+In a terminal window, navigate inside the parent directory of this README and execute the following to create the demo_env environment:
+
+ 
 a) `conda create --name demo_env`
 b) `conda activate demo_env`
 c) `pip install -r requirements.txt`
